@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -4641,7 +4641,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <junction x="0" y="58.42"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="BTX" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -4650,6 +4650,8 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="0" y1="73.66" x2="0" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 <junction x="0" y="73.66"/>
+<wire x1="0" y1="73.66" x2="-12.7" y2="73.66" width="0.1524" layer="91"/>
+<label x="-12.7" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
