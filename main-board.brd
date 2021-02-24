@@ -2600,9 +2600,9 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="11"/>
 <contactref element="U$1" pad="GPIO12"/>
 <wire x1="114.99" y1="18.17" x2="114.8244" y2="18.17" width="0.762" layer="16"/>
-<wire x1="109.4994" y1="20.955" x2="112.395" y2="20.955" width="0.762" layer="16"/>
-<wire x1="112.395" y1="20.955" x2="113.03" y2="20.32" width="0.762" layer="16"/>
-<wire x1="113.03" y1="20.32" x2="113.03" y2="19.05" width="0.762" layer="16"/>
+<wire x1="109.4994" y1="20.955" x2="111.76" y2="20.955" width="0.762" layer="16"/>
+<wire x1="111.76" y1="20.955" x2="113.03" y2="19.685" width="0.762" layer="16"/>
+<wire x1="113.03" y1="19.685" x2="113.03" y2="19.05" width="0.762" layer="16"/>
 <wire x1="113.03" y1="19.05" x2="113.91" y2="18.17" width="0.762" layer="16"/>
 <wire x1="113.91" y1="18.17" x2="114.99" y2="18.17" width="0.762" layer="16"/>
 </signal>
